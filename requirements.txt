@@ -1,5 +1,7 @@
-numpy==1.22.1
-Pillow==9.2.0
-streamlit==1.11.0
-tensorflow==2.9.1
-tensorflow_gpu==2.9.0
+numpy
+pandas
+tensorflow
+keras
+streamlit
+opencv-python
+pillow

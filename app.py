@@ -1,6 +1,14 @@
-from src import prediction_page,about,mail,home,pneumonia,blood_cancer,covid19,info
-import streamlit as st
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), "src"))  # Ensure src/ is in Python path
 
+from src.prediction_page import prediction_page
+from src.about import about
+from src.mail import mail
+from src.home import home
+from src.pneumonia import pneumonia
+from src.blood_cancer import blood_cancer
+import streamlit as st
 
 def init():
     st.session_state.page = 'Homepage'
